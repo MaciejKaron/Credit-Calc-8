@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-size: 100% 100%;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.err {
+  border-radius: 1em;
+  background-color: #f88;
+  color: #222;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inf {
+  border-radius: 1em;
+  background-color: rgb(29, 188, 216);
+  color: #222;
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.table {
+  position: fixed;
+  top: 5rem;
+  left: 1rem;
+}
+
+.back {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
